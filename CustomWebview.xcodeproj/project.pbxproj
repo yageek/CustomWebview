@@ -14,6 +14,7 @@
 		0BB19BF81AB8D43400043EB2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BB19BF71AB8D43400043EB2 /* Images.xcassets */; };
 		0BB19BFB1AB8D43400043EB2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BB19BF91AB8D43400043EB2 /* LaunchScreen.xib */; };
 		0BB19C071AB8D43500043EB2 /* CustomWebviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB19C061AB8D43500043EB2 /* CustomWebviewTests.m */; };
+		0BB19C121AB8D46300043EB2 /* AwesomeWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB19C111AB8D46300043EB2 /* AwesomeWebView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		0BB19C001AB8D43500043EB2 /* CustomWebviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomWebviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BB19C051AB8D43500043EB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0BB19C061AB8D43500043EB2 /* CustomWebviewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomWebviewTests.m; sourceTree = "<group>"; };
+		0BB19C101AB8D46300043EB2 /* AwesomeWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AwesomeWebView.h; sourceTree = "<group>"; };
+		0BB19C111AB8D46300043EB2 /* AwesomeWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AwesomeWebView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				0BB19BF71AB8D43400043EB2 /* Images.xcassets */,
 				0BB19BF91AB8D43400043EB2 /* LaunchScreen.xib */,
 				0BB19BEA1AB8D43400043EB2 /* Supporting Files */,
+				0BB19C101AB8D46300043EB2 /* AwesomeWebView.h */,
+				0BB19C111AB8D46300043EB2 /* AwesomeWebView.m */,
 			);
 			path = CustomWebview;
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BB19BF31AB8D43400043EB2 /* ViewController.m in Sources */,
+				0BB19C121AB8D46300043EB2 /* AwesomeWebView.m in Sources */,
 				0BB19BF01AB8D43400043EB2 /* AppDelegate.m in Sources */,
 				0BB19BED1AB8D43400043EB2 /* main.m in Sources */,
 			);

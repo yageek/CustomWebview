@@ -7,8 +7,9 @@
 //
 
 #import "ViewController.h"
-
+#import "AwesomeWebView.h"
 @interface ViewController ()
+@property (strong, nonatomic) IBOutlet AwesomeWebView *awesomeView;
 
 @end
 
@@ -17,6 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    NSURLRequest * request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.objc.io/"]];
+    [self.awesomeView loadRequest:request];
 }
 
 - (void)didReceiveMemoryWarning {
